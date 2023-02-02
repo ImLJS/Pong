@@ -40,13 +40,13 @@ while game:
 
     if ball.xcor() > 380:
         ball.reset_position()
-        ball.bounce_x()
+        ball.bounce_x_r_paddle()
         score.l_score += 1
         score.update_score()
 
     if ball.xcor() < -380:
         ball.reset_position()
-        ball.bounce_x()
+        ball.bounce_x_l_paddle()
         score.r_score += 1
         score.update_score()
 
