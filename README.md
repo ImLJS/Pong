@@ -20,3 +20,22 @@ To run this game, you will need to have the following installed on your computer
 ```
 pip install turtle
 ```
+
+
+### Running the game
+
+1. Open terminal or command prompt and navigate to the directory where the source code is located.
+2. Run the following command to start the game:
+
+```
+python pong.py
+```
+
+### Playing the game
+
+The game is a two-player game. Each player controls a paddle using the up and down arrow keys on their respective sides of the screen. The objective of the game is to hit the ball past your opponent's paddle and score a point. The first player to score 10 points wins the game.
+
+## Built With
+
+- Python 3
+- Turtle Graphics Library
