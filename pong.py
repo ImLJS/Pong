@@ -45,7 +45,7 @@ while game:
         score.r_score += 1
         score.update_score()
 
-    if score.l_score == 3 or score.r_score == 3:
+    if score.l_score == 10 or score.r_score == 10:
         game = False
         score.game_over()
 
