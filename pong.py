@@ -16,6 +16,7 @@ l_paddle = Paddle((-350, 0))
 ball = Ball()
 score = Scoreboard()
 
+# Key Press Listener
 screen.listen()
 screen.onkeypress(r_paddle.go_up, "Up")
 screen.onkeypress(r_paddle.go_down, "Down")
