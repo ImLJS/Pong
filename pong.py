@@ -23,6 +23,7 @@ screen.onkeypress(r_paddle.go_down, "Down")
 screen.onkeypress(l_paddle.go_up, "w")
 screen.onkeypress(l_paddle.go_down, "s")
 
+# Main Game Loop
 game = True
 while game:
     time.sleep(ball.move_speed)
