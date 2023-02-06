@@ -14,6 +14,7 @@ class Ball(Turtle):
         self.speed = 0
         self.move_speed = 0.1
 
+    # Ball Movement
     def move(self):
         new_x = self.xcor() + self.x_move
         new_y = self.ycor() + self.y_move
