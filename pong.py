@@ -48,7 +48,7 @@ while game:
         score.l_score += 1
         score.update_score()
 
-        # Detect If Ball Miss Right Paddle
+        # Detect If Ball Miss Left Paddle
     if ball.xcor() < -380:
         ball.reset_position()
         ball.bounce_x_l_paddle()
