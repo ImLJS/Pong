@@ -24,10 +24,12 @@ class Ball(Turtle):
     def bounce_y(self):
         self.y_move *= -1
 
+    # Ball Bounce from Left Paddle
     def bounce_x_l_paddle(self):
         self.x_move = (abs(self.x_move))
         self.move_speed *= 0.9
 
+    # Ball Bounce from Right Paddle
     def bounce_x_r_paddle(self):
         self.x_move = -(abs(self.x_move))
         self.move_speed *= 0.9
