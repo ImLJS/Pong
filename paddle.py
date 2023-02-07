@@ -3,6 +3,7 @@ from turtle import Turtle
 
 class Paddle(Turtle):
 
+    # Paddle Appearance
     def __init__(self, position):
         super().__init__()
         self.shape('square')
