@@ -14,6 +14,7 @@ class Scoreboard(Turtle):
         self.r_score = 0
         self.update_score()
 
+    # Score Update
     def update_score(self):
         self.clear()
         self.goto(-100, 200)
