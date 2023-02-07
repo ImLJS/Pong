@@ -11,6 +11,7 @@ screen.bgcolor('black')
 screen.title('Pong Game')
 screen.tracer(0)
 
+# Paddle Starting Position
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 ball = Ball()
